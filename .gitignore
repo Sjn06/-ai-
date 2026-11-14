@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+
+# runtime state / secrets
+.cli_sessions.json
+engine_server.log
+.env
+
+# local meeting records and DMs (personal content, never commit)
+records/
+chat-*.md
+dm-*.txt
+
+# codex home copied locally by the bridge
+.codex-home/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
